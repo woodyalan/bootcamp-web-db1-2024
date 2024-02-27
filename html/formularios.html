@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <h1>Formulários</h1>
+
+    <form name="formLead" action="#" method="POST">
+      <input
+        type="email"
+        name="email"
+        title="Informe o seu e-mail"
+        required
+        placeholder="Informe seu e-mail para receber novidades"
+      />
+
+      <input
+        type="text"
+        name="nomeCompleto"
+        placeholder="Informe seu nome"
+        maxlength="100"
+        minlength="10"
+      />
+
+      <input
+        type="number"
+        name="idade"
+        placeholder="Informe sua idade"
+        min="1"
+      />
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Cancelar</button>
+      <button type="button">Só um botão</button>
+    </form>
+  </body>
+</html>
