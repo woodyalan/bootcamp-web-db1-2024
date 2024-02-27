@@ -6,3 +6,15 @@ h1 {
 p {
     font-size: 20px;
 }
+
+section p strong {
+    color: red;
+}
+
+strong, em {
+    font-size: 26px;
+}
+
+strong {
+    color: green;
+}

@@ -11,4 +11,8 @@ Repositório criado para documentar os exemplos e exercícios durante as aulas
 - 
 ## CSS
 
+- [Slides](https://slides.com/alanfsantos/css)
+- [Guia de Unidades de Medidas](https://www.alura.com.br/artigos/guia-de-unidades-no-css)
+- [Documentação Oficial](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+
 ## JavaScript
