@@ -1,0 +1,23 @@
+.quadrado {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-color: tomato;
+    display: block;
+}
+
+.quadrado-em-linha {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-color: tomato;
+    display: inline-block;
+}
+
+.invisivel {
+    display: none;
+}
+
+.flutuar-direita {
+    float: right;
+}
