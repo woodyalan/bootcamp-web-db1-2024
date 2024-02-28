@@ -1,6 +1,8 @@
 h1 {
     color: blue;
     font-weight: normal;
+    font-family: Roboto, Helvetica;
+    font-weight: 100;
 }
 
 p {
@@ -38,6 +40,7 @@ input[type="email"] {
 .btn {
     font-size: 16px;
     padding: 10px;
+    border-radius: 4px;
 }
 
 .btn-azul {
@@ -55,4 +58,17 @@ input[type="email"] {
 
 input:required {
     background-color: #ddd;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border-radius: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.circulo p {
+    margin: 10px;
 }
