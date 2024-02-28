@@ -18,3 +18,41 @@ strong, em {
 strong {
     color: green;
 }
+
+input[required] {
+    border-color: tomato;
+    border-width: 2px;
+    border-style: solid;
+}
+
+input[type="email"] {
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#principal {
+    text-align: center;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.btn-azul {
+    background-color: blue;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-azul:hover {
+    background-color: #020275;
+}
+
+input:required {
+    background-color: #ddd;
+}
