@@ -10,4 +10,12 @@ let containers = document.querySelectorAll(".container");
 console.log(container, containers);
 
 // alterado o conteúdo de um elemento
-container.innerHTML = "Elemento 1 - Texto atualizado";
+container.innerHTML = "Elemento 1 - Texto <strong>atualizado</strong>";
+
+// alterando propriedades do estilo do elemento
+container.style.border = "2px #000 solid";
+container.style.padding = "10px";
+container.style.display = "none";
+
+// alterando a cor do segundo elemento da lista de elementos com a classe .container
+containers[1].style.backgroundColor = "blue";
