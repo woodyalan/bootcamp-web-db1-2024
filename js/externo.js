@@ -43,3 +43,15 @@ botao.classList.remove("btn-erro");
 // saber se um elemento possui uma classe específica
 console.log("Contém a classe btn-erro?", botao.classList.contains("btn-erro"));
 console.log("Contém a classe btn?", botao.classList.contains("btn"));
+
+botao.onclick = function () {
+  container.style.display = "block";
+  container.innerHTML = "Trocando o conteúdo do quadrado";
+};
+
+let botaoSenha = document.querySelector("#mostrarSenha");
+
+botaoSenha.onclick = function () {
+  let inputSenha = document.querySelector("#senha");
+  inputSenha.setAttribute("type", "text");
+};

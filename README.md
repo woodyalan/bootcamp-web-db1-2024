@@ -21,3 +21,5 @@ Repositório criado para documentar os exemplos e exercícios durante as aulas
 - [Grid Garden](https://codepip.com/games/grid-garden/)
 
 ## JavaScript
+
+- [Eventos](https://developer.mozilla.org/en-US/docs/Web/Events)
