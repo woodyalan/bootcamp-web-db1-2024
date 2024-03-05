@@ -22,9 +22,24 @@ containers[1].style.backgroundColor = "blue";
 
 let botao = document.querySelector(".btn");
 
+// criando atributos
 console.log("desabilitando o botão");
 botao.setAttribute("disabled", "disabled");
 botao.setAttribute("type", "button");
 
+// removendo atributos
 console.log("habilitando o botão");
 botao.removeAttribute("disabled");
+
+// exibindo a lista de classes do elemento
+console.log(botao.classList);
+
+// adicionando uma classe ao elemento
+botao.classList.add("btn-arredondado");
+
+// removendo uma classe do elemento
+botao.classList.remove("btn-erro");
+
+// saber se um elemento possui uma classe específica
+console.log("Contém a classe btn-erro?", botao.classList.contains("btn-erro"));
+console.log("Contém a classe btn?", botao.classList.contains("btn"));
