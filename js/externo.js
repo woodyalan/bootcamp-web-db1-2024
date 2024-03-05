@@ -55,3 +55,9 @@ botaoSenha.onclick = function () {
   let inputSenha = document.querySelector("#senha");
   inputSenha.setAttribute("type", "text");
 };
+
+let inputSenha = document.querySelector("#senha");
+
+inputSenha.onblur = function () {
+  console.log(inputSenha.value);
+};
