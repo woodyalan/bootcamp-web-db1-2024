@@ -1,9 +1,9 @@
 //alert("Olá vindo de js externo");
 
-// buscando um único elemento do HTML
+// buscando um único elemento do HTML (DOM)
 let container = document.querySelector("#container");
 
-// buscando vários elementos do HTML;
+// buscando vários elementos do HTML (DOM);
 let containers = document.querySelectorAll(".container");
 
 // exibindo uma mensagem no console do navegador
@@ -19,3 +19,12 @@ container.style.display = "none";
 
 // alterando a cor do segundo elemento da lista de elementos com a classe .container
 containers[1].style.backgroundColor = "blue";
+
+let botao = document.querySelector(".btn");
+
+console.log("desabilitando o botão");
+botao.setAttribute("disabled", "disabled");
+botao.setAttribute("type", "button");
+
+console.log("habilitando o botão");
+botao.removeAttribute("disabled");
