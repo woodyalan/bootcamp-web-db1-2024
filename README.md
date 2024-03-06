@@ -22,4 +22,15 @@ Repositório criado para documentar os exemplos e exercícios durante as aulas
 
 ## JavaScript
 
+- [Slides](https://slides.com/alanfsantos/javascript)
+- [Documentação Oficial](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [API Document](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/document)
+- [querySelector](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector)
+- [querySelectorAll](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelectorAll)
+- [Manipulando o DOM](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction)
 - [Eventos](https://developer.mozilla.org/en-US/docs/Web/Events)
+- [Classes Dinâmicas](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/classList)
+- [Funções](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Functions)
+- [Quando algo der errado](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_went_wrong)
+- [Utilizando o console.log](https://brayanarrieta.hashnode.dev/how-use-consolelog-like-a-pro)
+- 
